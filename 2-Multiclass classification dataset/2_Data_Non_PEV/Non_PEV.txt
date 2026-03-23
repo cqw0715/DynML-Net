@@ -1,0 +1,14 @@
+1: FIV
+2: HIV
+3: HCV
+4: HPIV3
+5: HSV1
+6: INFVA
+7: RSV
+8: SARS-CoV
+
+Data source: 
+
+Yuxuan Pang, Lantian Yao, Jhih-Hua Jhong, Zhuo Wang, Tzong-Yi Lee, AVPIden: a new scheme for identification and functional prediction of antiviral peptides based on machine learning approaches, Briefings in Bioinformatics, Volume 22, Issue 6, November 2021, bbab263, https://doi.org/10.1093/bib/bbab263
+
+https://github.com/BiOmicsLab/AVPIden.git

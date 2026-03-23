@@ -1,0 +1,8 @@
+1: PEDV
+2: TGEV
+3: PoRV
+4: PDCoV
+5: PSV
+6: PAstV
+7: PoNoV
+8: SADS-Cov

@@ -11,7 +11,11 @@ Yuxuan, P., Lantian, Y., JhihHua, J., Zhuo, W., & TzongYi, L. (2021). AVPIden: a
 <br>github: https://github.com/BiOmicsLab/AVPIden.git
 
 ## System deployment
-Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System
+Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System：
 ```bash
 pip install -r requirements.txt
+```
+After installation, you can run the following command:
+```bash
+streamlit run main.py
 ```

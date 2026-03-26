@@ -19,3 +19,5 @@ After installation, you can run the following command:
 ```bash
 streamlit run main.py
 ```
+If you are redirected to the following page, the deployment is successful!!!
+<img width="1918" height="891" alt="0-主页面" src="https://github.com/user-attachments/assets/13ca0e34-f1e3-4b8a-961c-6fc35647924f" />

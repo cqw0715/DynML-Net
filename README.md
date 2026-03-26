@@ -31,6 +31,10 @@ pip install imblearn
 pip install pandas
 pip install xxx
 ```
+### Model Training
+Please use a single CSV file to store the dataset for model execution. The file must include the following two columns:<br>
+1. 'Sequence': for storing protein sequences.<br>
+2. 'Label': for recording the class label of the protein sequence.<br>
 
 ## System deployment
 Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System：

@@ -10,6 +10,28 @@ NCBI: https://www.ncbi.nlm.nih.gov
 Yuxuan, P., Lantian, Y., JhihHua, J., Zhuo, W., & TzongYi, L. (2021). AVPIden: a new scheme for identification and functional prediction of antiviral peptides based on machine learning approaches. Briefings in bioinformatics, 22(6). doi:10.1093/bib/bbab263
 <br>github: https://github.com/BiOmicsLab/AVPIden.git
 
+## Model execution
+### Core Dependencies
+The main environment for the model operation is as follows：<br>
+| Library          | Version  |
+|------------------|----------|
+| transformers     | 4.40.0   |
+| torch            | 2.4.0    |
+| fair-esm         | 2.0.0    |
+| numpy            | 2.4.3    |<br>
+
+I have uploaded the complete environment for running the model locally to the "0-requirements.txt" file. You can refer to this file for installation.<br>
+The corresponding model runtime environment can be installed directly via pip in the terminal.
+```bash
+pip install transformers==4.40.0
+pip install torch==2.4.0
+pip install fair-esm==2.0.0
+pip install numpy==2.4.3
+pip install imblearn
+pip install pandas
+pip install xxx
+```
+
 ## System deployment
 Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System：
 ```bash

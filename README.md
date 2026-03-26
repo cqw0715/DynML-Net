@@ -36,6 +36,17 @@ Please use a single CSV file to store the dataset for model execution. The file 
 1. 'Sequence': for storing protein sequences.<br>
 2. 'Label': for recording the class label of the protein sequence.<br>
 
+Then, input your dataset name into the code：
+```bash
+    train_binary_task("tra_pos1587_neg1589.csv")     ##153
+    train_multiclass_task("90%_1587.csv")            ##233
+```
+Finally, run the following command and wait for the model execution to complete.
+```bash
+    python run_binary.py
+    python run_multiclass.py
+```
+
 ## System deployment
 Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System：
 ```bash

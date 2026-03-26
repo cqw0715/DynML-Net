@@ -1,4 +1,4 @@
-# DynML-Net: A porcine enteric viruses identification network based on protein language models and a dynamic heterogeneous multi-branch architecture
+# DynML-Net: A porcine enteric virus identification network based on protein language models and a dynamic heterogeneous multi-branch architecture
 
 ## Dataset
 ### Data source (PEV)

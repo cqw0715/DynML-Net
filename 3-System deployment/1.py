@@ -591,9 +591,9 @@ def main():
                             
                             # Create full output
                             output_df = df.copy()
-                            output_df['Prediction'] = "Invalid Sequence"
-                            output_df['Class'] = "Invalid Sequence"
-                            output_df['Confidence'] = 0.0
+                            output_df['Prediction'] = pd.Series("Invalid Sequence", index=df.index, dtype=object)
+                            output_df['Class'] = pd.Series("Invalid Sequence", index=df.index, dtype=object)
+                            output_df['Confidence'] = pd.Series(0.0, index=df.index, dtype=object) 
                             
                             for _, row in results_with_index.iterrows():
                                 idx = int(row['original_index'])

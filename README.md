@@ -49,7 +49,11 @@ Finally, run the following command and wait for the model execution to complete.
 ```
 
 ## System deployment
-Before deploying the system, please download all files in the "3-System deployment" folder. Installation Requirements for the Operating Environment Corresponding to the System：
+Before deploying the system, please download all files in the "3-System deployment" folder.The following is an overview of the key hardware specifications for deploying the system:<br>
+<b>Minimum Hardware Configuration: </b>An NVIDIA RTX 3060 GPU (12 GB VRAM) alongside 8 GB of system RAM.<br>
+<b>Recommended Hardware Configuration: </b>An NVIDIA RTX 3090 GPU (24 GB VRAM) alongside 16 GB of system RAM.<br>
+<b>Inference Latency Range: The average </b>inference time falls within an efficient range of 30 to 80 ms per sequence.<br>
+Installation Requirements for the Operating Environment Corresponding to the System：
 ```bash
 pip install -r requirements.txt
 ```
